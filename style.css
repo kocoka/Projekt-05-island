@@ -22,22 +22,73 @@ body {
 
 .titulek {
     font-family: 'Raleway', serif;
+    font-size: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 }
+.container {
+    display:flex;
+    flex-wrap: wrap;
 
-
+}
+.hlavička {
+    background-color: black;
+    background: url(images/island-hlavicka.jpg);
+    background-size: cover;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/island-hlavicka.jpg);;
+    padding: 5%;
+    color: white;
+}
+.autor {
+    text-align: center;
+    font-style: italic;
+    color: rgb(183, 181, 181);
+}
+.menu {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    margin:50px;
+    height: 180px;
+    justify-content: space-between;
+}
 /* MENU */
-
-
-
-
-/* OBSAH */
-
-
-
-
-/* FOTOGALERIE */
-
-
-
-
-/* PATICKA */
+a {
+    color:grey;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Úvod {
+    display: flex;
+    flex-direction: column;
+    margin:30px;
+}
+h2 {
+    padding: 20px;
+}
+hr {
+    margin-bottom: 50px;
+}
+.Proč {
+    display: flex;
+    flex-direction: column;
+}
+.Co {
+    display:flex;
+    flex-direction: column;
+}
+.foto {
+    display:flex;
+    flex-direction: column;
+}
+.popisek {
+    color: grey;
+    text-align: center;
+}
+.patička {
+    background-color: rgb(234, 226, 226);
+    color: grey;
+}
