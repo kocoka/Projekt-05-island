@@ -92,3 +92,13 @@ hr {
     background-color: rgb(234, 226, 226);
     color: grey;
 }
+@media (min-width: 500px) {
+    .menu{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 30px 0px 0px 0px;
+        height: 10px;
+        font-size: 80%;
+    }
+    
+}
