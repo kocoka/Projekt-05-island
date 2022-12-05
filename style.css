@@ -88,6 +88,10 @@ hr {
     color: grey;
     text-align: center;
 }
+.popisek2 {
+    color: grey;
+    text-align: center;
+}
 .patička {
     background-color: rgb(234, 226, 226);
     color: grey;
@@ -100,5 +104,20 @@ hr {
         height: 10px;
         font-size: 80%;
     }
-    
+    .popisek {
+        color:antiquewhite;
+        margin: -30px 0px 0px 0px;
+        text-align: end;
+    }
+    .popisek2 {
+        display: none;
+    }
+    .galerie {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .foto {
+        width: 50%;
+    }
 }
