@@ -15,10 +15,14 @@ body {
     font-family: 'Merriweather', serif;
     font-size: 16px;
     line-height: 1.6;
+    
 }
 
 
 /* HLAVICKA */
+html {
+    scroll-behavior: smooth;
+}
 
 .titulek {
     font-family: 'Raleway', serif;
@@ -110,6 +114,8 @@ hr {
         text-align: end;
     }
     .popisek2 {
+        background-color: rgba(0, 0, 0.5, 0.794);
+        margin: -50px 0px 0px 0px;
         display: none;
     }
     .galerie {
@@ -120,4 +126,12 @@ hr {
     .foto {
         width: 50%;
     }
-}
+    
+    .foto:hover .popisek2 {
+        display:block;
+    }
+        
+
+    }
+    
+
