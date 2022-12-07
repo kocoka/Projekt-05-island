@@ -130,8 +130,18 @@ hr {
     .foto:hover .popisek2 {
         display:block;
     }
-        
-
+}
+@media (min-width:1000px) {
+    .celé {
+        margin: -60px 100px 0px 100px;
+        padding: 20px 30px 30px 30px;
+        background-color: aliceblue;
+        box-shadow: black 4px 6px 20px;;
     }
+    .foto {
+        width: 33.333333%;
+    }
+
+}
     
 
